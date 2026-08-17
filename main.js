@@ -1,7 +1,9 @@
 async function recognize(base64, lang, options) {
     const { config, utils } = options;
     const { tauriFetch: fetch } = utils;
-    let { model = "gpt-4o", apiKey, requestPath, customPrompt } = config;
+    let { model, apiKey, requestPath, customPrompt } = config;
+
+    model = model?.trim() || "gpt-4o";
 
     if (!requestPath) {
         requestPath = "https://api.openai.com";
