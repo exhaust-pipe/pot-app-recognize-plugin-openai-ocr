@@ -18,7 +18,7 @@ async function recognize(base64, lang, options) {
         requestPath += '/v1/chat/completions';
     }
     if (!customPrompt) {
-        customPrompt = "Just recognize the text in the image. Do not offer unnecessary explanations.";
+        customPrompt = "Transcribe all visible text in the image exactly as written. Preserve the original reading order and line breaks. Do not translate, summarize, explain, correct, infer, or add any text. Output only the recognized text.";
     }else{
         customPrompt = customPrompt.replaceAll("$lang", lang);
     }
