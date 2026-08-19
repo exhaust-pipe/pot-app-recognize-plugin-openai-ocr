@@ -3,7 +3,7 @@
   "plugin_type": "recognize",
   "icon": "openai.svg",
   "display": "OpenAI",
-  "homepage": "https://github.com/pot-app/pot-app-recognize-plugin-openai",
+  "homepage": "https://github.com/exhaust-pipe/pot-app-recognize-plugin-openai",
   "needs": [
     {
       "key": "model",
