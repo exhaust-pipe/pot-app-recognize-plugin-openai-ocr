@@ -15,7 +15,7 @@ An OCR (text recognition) plugin for [Pot](https://github.com/pot-app/pot-deskto
 ## Installation
 
 1. Download or clone this repository.
-2. In Pot, open **Preferences → Service Settings → Text Recognition**.
+2. In Pot, open **Service Settings → Text Recognition**.
 3. Add an external text-recognition plugin and select this packaged plugin file (download from release).
 4. Enable **OpenAI OCR** and complete the configuration described below.
 
